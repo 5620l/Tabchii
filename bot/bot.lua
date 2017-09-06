@@ -226,8 +226,8 @@ end
 
 -- Create a basic config.json file and saves it.
 function create_config( )
- io.write('\n\27[1;33m>> Input your Telegram ID for set Sudo :  \27[0;39;49m')
- local sudo_id =  tonumber(io.read())
+  io.write('\n\27[1;33m>> Input your Telegram ID for set Sudo :  \27[0;39;49m')
+  local sudo_id =  tonumber(io.read())
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
